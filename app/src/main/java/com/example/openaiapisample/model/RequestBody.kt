@@ -1,4 +1,5 @@
-package com.rehthinkdev.chatgpt.Model
+package com.example.openaiapisample.model
+
 
 import com.google.gson.annotations.SerializedName
 

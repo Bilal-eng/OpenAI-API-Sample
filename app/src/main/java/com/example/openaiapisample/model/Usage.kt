@@ -1,4 +1,4 @@
-package com.rehthinkdev.chatgpt.Model
+package com.example.openaiapisample.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -12,5 +12,4 @@ data class Usage(
 
     @SerializedName("total_tokens")
     val total_tokens: Int
-
 )
