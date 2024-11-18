@@ -34,6 +34,7 @@ class MyViewModel @Inject constructor(
                 Log.e("TAG", response.usage.total_tokens.toString())
             } catch (e: Exception) {
                 Log.e("TAG Bilal", e.message.toString())
+                _response.value = " ${e.message}"
             }
         }
     }
